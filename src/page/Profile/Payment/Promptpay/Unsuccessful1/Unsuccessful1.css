@@ -1,0 +1,26 @@
+  .logocancel{
+    width: 160px;
+    height: 16  0px;
+    margin: 0px auto;
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    object-fit: contain; 
+  }
+  .fail{
+    margin-bottom: 50px;
+  }
+  .fail h4{
+    color: #000000;
+    font-weight: bold;
+  }
+  .fail p{
+    margin: 6px 0 ;
+    color: #000000;
+  }
+ 
+  
+
+  
+
+  

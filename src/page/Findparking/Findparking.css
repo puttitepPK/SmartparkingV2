@@ -1,0 +1,295 @@
+.iconPark{
+  margin-left: 3px;
+}
+.text-center{
+  margin-top: -15px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: white;
+}
+.boxback{
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 8px rgba(131, 80, 80, 0.1);
+  /* font-family: Arial, sans-serif; */
+  color: #1f1f1f !important;
+}
+
+.boxrecord{
+  margin-bottom: 20px;
+}
+.photoparking{
+  width: 90%;
+  margin: 0px auto;
+  margin-left: 16px;
+}  
+.parking{
+  width: 320px;
+  height: 163px;
+}
+
+.btn-light {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.btn-light i {
+  margin-right: 8px;
+  font-size: 18px;
+}
+.search-section {
+  margin-bottom: -15px;
+  margin-left: 5px;
+}
+.custom-date-picker {
+  width: 150px !important; /* ปรับขนาดให้เต็มความกว้าง */
+  height: 35px; /* ปรับความสูง */
+  font-size: 16px; /* ขนาดตัวอักษร */
+  color: #2e2e2e !important; /* สีข้อความ */
+  background-color: #D4D0D0 !important; /* สีพื้นหลัง */
+  border: 2px solid #cccccc; /* กำหนดขอบ */
+  border-radius: 8px; /* มุมโค้งมน */
+  outline: none; /* ลบเส้นขอบเวลา focus */
+  transition: border-color 0.3s ease; /* เพิ่มการเคลื่อนไหวเมื่อเปลี่ยนสี */
+  margin-right: 20px;
+  margin-left: 1px;
+}
+
+.custom-date-picker:focus {
+  border-color: #007bff; /* เปลี่ยนสีขอบเมื่อถูกเลือก */
+  background-color: #ffffff; /* สีพื้นหลังเมื่อ focus */
+}
+
+.custom-date-picker::placeholder {
+  color: #aaaaaa; /* สีข้อความ placeholder */
+}
+
+
+.dropdown{
+  display: flex;
+  justify-content: center;
+  margin-left: 12.9px;
+  margin-top: -11px;
+  width: 93%;
+  border-bottom-color: #EDEBEB !important;
+  background-color: #EDEBEB;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border:  2px solid #b1b1b1;
+  padding: 3px;
+}
+.dropdown-toggle {
+  width: 95px; /* ความกว้างของปุ่ม */ 
+  height: 35px; /* ความสูงของปุ่ม */
+  font-size: 15px; /* ขนาดตัวอักษร */
+  padding: 10px 1px; /* ระยะ padding ด้านในปุ่ม */
+  border-radius: 5px; /* ขอบโค้งมน */
+  background-color: #D4D0D0; /* สีพื้นหลัง */
+  color: #2e2e2e; /* สีตัวอักษร */
+  border: 2px solid #ccc; /* เส้นขอบ */
+  display: flex; /* ใช้ Flexbox */
+  align-items: center; /* จัดให้อยู่กึ่งกลางแนวตั้ง */
+  justify-content: center; /* จัดให้อยู่กึ่งกลางแนวนอน */
+  gap: 2px; /* ระยะห่างระหว่างไอคอนกับข้อความ */
+  margin-left: -15px;
+}
+
+.dropdown-toggle:hover {
+  background-color: #adadad; /* สีเมื่อเอาเมาส์ไปวาง */
+}
+
+.dropdown2{ 
+  display: flex;
+  justify-content: center;
+  margin-left: 12.9px;
+  margin-top: -6px;
+  width: 93%;
+  background-color: #EDEBEB;
+  border-top-color: #EDEBEB !important;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: 2px solid #b1b1b1;
+  padding: 3px;
+}
+
+.main-content3 {        
+  flex: 1;
+  padding-bottom: 160px; /* เผื่อพื้นที่สำหรับ bottom-navbar */
+}
+
+/*เวลา*/
+.custom-date-pickerGT2 {
+  width: 200px !important; /* ปรับขนาดให้เต็มความกว้าง */
+  float: right;
+  height: 35px; /* ปรับความสูง */
+  font-size: 16px; /* ขนาดตัวอักษร */
+  color: #2e2e2e !important; /* สีข้อความ */
+  background-color: #D4D0D0 !important; /* สีพื้นหลัง */
+  border: 2px solid #cccccc; /* กำหนดขอบ */
+  border-radius: 8px; /* มุมโค้งมน */
+  outline: none; /* ลบเส้นขอบเวลา focus */
+  transition: border-color 0.3s ease; /* เพิ่มการเคลื่อนไหวเมื่อเปลี่ยนสี */
+  margin-right: 6px;
+  margin-left: -14px;
+  margin-top: 0px;
+  margin-bottom: 0px !important;
+}
+
+.custom-date-pickerGT2:focus {
+  border-color: #007bff; /* เปลี่ยนสีขอบเมื่อถูกเลือก */
+  background-color: #ffffff; /* สีพื้นหลังเมื่อ focus */
+}
+
+/*อาคารแสดง */
+.parking-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+  /* margin-left: 15px;
+  margin-right: 15px; */
+}
+
+.parking-item {
+  background-color: #473366;
+  color: white;
+  width: 93%;
+  height: 150px;
+  margin: 0px auto;
+  margin-top: 10px;
+  border: 1px solid #000000; 
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.parking-image {
+  float: left;
+  width: 155px;
+  height: 130px;
+  margin-left: 8px;
+  margin-top: 9px;
+  margin-right: 11px;
+}
+.parking-info{
+  text-align: left;
+  margin-top: 10px;
+}
+.parking-info h5 {
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 8px;
+  margin-bottom: 3px !important;
+}
+
+.parking-info p {
+  font-size: 15px;
+  margin-left: 17px;
+  margin-bottom: -1px;
+}
+.boxstatus2{
+  background-color: #FD6E2B;
+  height: 30px;
+  width: 43%;
+  border-radius: 5px;
+  border: 1px solid white;
+  margin-top: 9px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  float: left;
+}
+.boxstatus{
+  background-color: white;
+  height: 29px;
+  width: 87%;
+  position: relative;
+  right: 1px;
+  bottom: 0.5px;
+  border: none;
+  border-radius: 5px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  float: left;
+}
+
+.boxstatus p{
+  margin-top: 1px;
+  color: #000000;
+  font-weight: bold;
+}
+
+/*ปุ่มลด*/
+.btn-decrement{
+  margin-top: 1px;
+  height: 25px;
+  width: 10px;
+  border: none;
+  background-color: #FD6E2B;
+}
+
+/*ว่าง*/
+.status-available {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+/*ไม่ว่าง*/
+.status-occupied {
+  color: rgb(117, 117, 117);
+  font-weight: bold;
+}
+
+
+
+  /* ปรับสำหรับหน้าจอขนาดมือถือ */
+  @media (max-width: 576px) {
+    .boxstatus2{
+      background-color: #FD6E2B;
+      height: 30px;
+      width: 43%;
+      border-radius: 5px;
+      border: 1px solid white;
+      margin-top: 9px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      float: left;
+    }
+    .boxstatus{
+      background-color: rgb(255, 255, 255);
+      color: #000000;
+      height: 29px;
+      width: 87%;
+      position: relative;
+      right: 1px;
+      bottom: 33px;
+      border: none;
+      margin-top: 32px;
+      border-radius: 5px;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+      float: left;
+    }
+    
+    .boxstatus p{
+      margin-top: 1px;
+      color: #000000;
+      font-weight: bold;
+    }
+    
+    /*ปุ่มลด*/
+    .btn-decrement{
+      margin-top: 1px;
+      height: 25px;
+      margin-left: 100px;
+      width: 10px;
+      border: none;
+      background-color: #FD6E2B;
+    }
+}

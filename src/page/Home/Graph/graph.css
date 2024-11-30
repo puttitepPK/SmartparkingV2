@@ -1,0 +1,52 @@
+.dategraphtime{
+    position: relative;
+    top: 15px;
+    margin-bottom: 35px;
+}
+
+.custom-date-pickerG2 {
+    width: 130px !important; /* ปรับขนาดให้เต็มความกว้าง */
+    height: 35px; /* ปรับความสูง */
+    font-size: 16px; /* ขนาดตัวอักษร */
+    color: #2e2e2e !important; /* สีข้อความ */
+    background-color: #D4D0D0 !important; /* สีพื้นหลัง */
+    border: 2px solid #cccccc; /* กำหนดขอบ */
+    border-radius: 8px; /* มุมโค้งมน */
+    outline: none; /* ลบเส้นขอบเวลา focus */
+    transition: border-color 0.3s ease; /* เพิ่มการเคลื่อนไหวเมื่อเปลี่ยนสี */
+    margin-right: 20px;
+    margin-left: 15px;
+  }
+  
+  .custom-date-pickerG2:focus {
+    border-color: #007bff; /* เปลี่ยนสีขอบเมื่อถูกเลือก */
+    background-color: #ffffff; /* สีพื้นหลังเมื่อ focus */
+  }
+
+  .custom-date-pickerGT {
+    width: 95px !important; /* ปรับขนาดให้เต็มความกว้าง */
+    float: right;
+    height: 35px; /* ปรับความสูง */
+    font-size: 16px; /* ขนาดตัวอักษร */
+    color: #2e2e2e !important; /* สีข้อความ */
+    background-color: #D4D0D0 !important; /* สีพื้นหลัง */
+    border: 2px solid #cccccc; /* กำหนดขอบ */
+    border-radius: 8px; /* มุมโค้งมน */
+    outline: none; /* ลบเส้นขอบเวลา focus */
+    transition: border-color 0.3s ease; /* เพิ่มการเคลื่อนไหวเมื่อเปลี่ยนสี */
+    margin-right: 15px;
+    margin-top: -50px;
+  }
+  
+  .custom-date-pickerGT:focus {
+    border-color: #007bff; /* เปลี่ยนสีขอบเมื่อถูกเลือก */
+    background-color: #ffffff; /* สีพื้นหลังเมื่อ focus */
+  }
+  .titlegraph1{
+    margin-bottom: 22px;
+    color: #473366;
+  }
+  .titlegraph1 p{
+    font-weight: 700;
+    font-size: 25px;
+  }

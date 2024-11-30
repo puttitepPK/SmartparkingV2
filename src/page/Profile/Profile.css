@@ -1,0 +1,135 @@
+.userprofilehome2 {
+  background-color: #FD6E2B;
+  height: 150px;
+  width: 90%;
+  border: 5px solid white;
+  border-radius: 10px;
+  margin: 0px auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+.profileinfoname2 {
+  font-weight: bolder;
+} 
+
+.datahomeprofile2 {
+  margin-top: 8px;
+  color: white;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+}
+
+.datahomeprofile2 span {
+  font-size: 20px;
+  margin-left: 7px;
+}
+
+.datahomeprofile2 p {
+  display: flex;
+  font-size: 20px;
+ 
+  margin-left: 20px;
+  margin-bottom: 0px;
+}
+
+
+.photohomeprofile2 {
+  position: relative;
+  bottom: 150px;
+  left: 115px;
+}
+
+.profile2 {
+  width: 85px;
+  height: 80px;
+}
+
+.box2 {
+  height: 130px;
+  margin-top: -20px;
+  margin-bottom: 35px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 5px solid #FFFFFF;
+  border-bottom-left-radius: 70px;
+  border-bottom-color: #F2F2E6;
+  border-left-color: #F2F2E6;
+}
+
+.Logo2-image {
+  width: 160px;
+  height: 80px;
+  object-fit: contain;
+  margin-top: 25px;
+  float: left;
+  margin-left: 6px;
+}
+
+
+/* Button Section */
+.content-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.content-buttons .btn {
+  width: 100%;
+  padding: 15px;
+  font-size: 16px;
+  border: 2px solid #FFFFFF;
+  border-radius: 8px;
+}
+.button-container-center {
+  align-items: center; /* จัดให้อยู่กลางแนวตั้ง */
+  background-color: #473366; /* สีพื้นหลังกล่อง */
+  border: 20px solid #ffffff; /* เส้นขอบ */
+  border-radius: 12px 5px; /* มุมโค้ง */
+  border-top: 10px solid #ffffff; /* เส้นขอบเฉพาะด้านบน */
+  border-right: 10px solid #ffffff; /* ไม่มีเส้นขอบด้านขวา */
+  border-bottom: none; /* เส้นขอบเฉพาะด้านล่าง */
+  border-left: 10px solid #ffffff; /* ไม่มีเส้นขอบด้านซ้าย */
+  padding: 0px; /* ระยะห่างด้านใน */
+  margin: 40px auto; /* ปรับระยะห่างด้านบน (40px) และจัดตรงกลาง */
+  max-width: 350px; /* กำหนดความกว้างสูงสุด */
+  height: 420px; /* ความสูงของกล่อง */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* เงาของกล่อง */
+}
+
+.button-container-center {
+  width: 100%;
+  border: 9px solid white;
+  border-radius: 10px;
+  border-bottom: none; /* เส้นขอบเฉพาะด้านล่าง */
+  margin-bottom: 15px; /* ระยะห่างระหว่างปุ่ม */
+  padding: 15px;
+  font-size: 16px;
+ 
+}
+
+.button-container-center .btn:last-child {
+  margin-bottom: 0; /* ยกเลิกระยะห่างสำหรับปุ่มสุดท้าย */
+}
+
+.content-Logout1 {
+ align-items: center;
+}
+
+.content-Logout1 {
+  background-color: #FD6E2B;  /* สีพื้นหลัง */
+  color: rgb(255, 255, 255);        /* สีตัวอักษร */
+  font-weight: bold;          /* ตัวหนา */
+  border: 2px solid #ffffff;               /* ไม่มีขอบ */
+  width: 200px;               /* กำหนดความกว้างของปุ่ม */
+  height: 50px;               /* กำหนดความสูงของปุ่ม */
+  margin-top: -30px;           /* ลดระยะห่างด้านบนจากเดิม 20px เป็น 10px */
+  display: block;             /* ใช้ block เพื่อให้สามารถจัดกลางได้ */
+  margin-left: auto;          /* จัดกลางในแนวนอน */
+  margin-right: auto;         /* จัดกลางในแนวนอน */
+}
+
+

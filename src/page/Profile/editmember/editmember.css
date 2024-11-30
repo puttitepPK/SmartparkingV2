@@ -1,0 +1,189 @@
+/* ปรับสไตล์ปุ่มในฟอร์ม */
+.form-buttons {
+    text-align: center;
+    margin-top: 20px;
+    margin-top: 50px;
+}
+/* กรอบฟอร์มข้อมูลส่วนตัว */
+.profile-form-container {
+    padding: 10px;
+    background-color: #ffffff;
+    margin: 20px auto; /* ทำให้มันอยู่กลางโดยมีระยะห่างด้านบนและล่าง */
+    width: 80%; /* หรือ max-width: 600px; ขึ้นอยู่กับขนาดที่คุณต้องการ */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 50px; /* เพิ่มช่องว่างด้านบน */
+}
+
+/* ข้อความหัวข้อข้อมูลส่วนตัว */
+h3 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+/* กรอบของฟอร์มแต่ละช่อง */
+.form-group {
+    margin-bottom: 0px;
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+/* สไตล์สำหรับช่องกรอกข้อมูล */
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* EditMember.css */
+.profile-form-container {
+    position: relative;
+}
+
+.purple-box {
+    background-color: #473366; /* สีม่วงเข้ม */
+    padding: 20px;
+    border-radius: 15px;
+    position: relative;
+    margin-top: 65px;
+}
+
+.form-group {
+    margin-bottom: 0px; /* ปรับระยะห่างระหว่างช่องกรอกข้อมูล */
+    display: flex;
+    flex-direction: column; /* ทำให้ label อยู่บน input */
+}
+
+.form-group label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0px;
+    font-size: 12px;
+    text-align: left; /* ทำให้ label อยู่ทางซ้าย */
+}
+
+/* โปรไฟล */
+.profile-header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: -20px;
+}
+
+.profile-image {
+    width: 100px; /* ปรับขนาดรูปโปรไฟล์ตามต้องการ */
+    height: 100px; /* ปรับขนาดรูปโปรไฟล์ตามต้องการ */
+    border-radius: 50%; /* ทำให้รูปเป็นวงกลม */
+    margin-right: 10px; /* ระยะห่างระหว่างรูปกับชื่อ */
+    position: absolute;
+    top: -px;
+    border: 5px solid #473366; /* ขอบสีม่วงเข้ม */
+    border-radius: 50%;
+}
+
+
+.form-buttons {
+    display: flex;
+    flex-direction: row; /* จัดเรียงปุ่มในแนวนอน */
+    justify-content: space-between; /* เพิ่มระยะห่างระหว่างปุ่ม */
+    gap: 10px; /* ระยะห่างระหว่างปุ่ม */
+  }
+  
+  .form-buttons button {
+    width: 49%; /* กำหนดความกว้างของปุ่มให้ใช้ 32% ของพื้นที่ */
+    padding: 10px 0px;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    margin: 5px 0;
+    color: #000000; /* สีตัวอักษรเป็นสีดำ */
+    background-color: #ffffff; /* สีพื้นหลังปุ่มเป็นสีขาว */
+    border: 2px solid #ffffff; /* กรอบปุ่มสีเทาอ่อน */
+    border-radius: 5px; /* มุมปุ่มมน */
+    transition: all 0.3s ease; /* การเปลี่ยนแปลงที่นุ่มนวลเมื่อมีการโฮเวอร์ */
+  }
+  
+  /* เพิ่มเอฟเฟกต์เมื่อโฮเวอร์: เพิ่มเงาและเปลี่ยนสีกรอบ */
+  .form-buttons button:hover {
+    border-color: #FD6E2B; /* เปลี่ยนสีกรอบเป็นสีน้ำเงินเมื่อโฮเวอร์ */
+    
+  }
+  
+  /* การตั้งค่าปุ่มย้อนกลับ */
+  .ButtonBack {
+    background-color: #ffffff; /* พื้นหลังสีขาว */
+    border: 1px solid #6c757d; /* กรอบสีเทาเข้ม */
+    color: #000; /* สีตัวอักษรเป็นสีดำ */
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  .ButtonBack:hover {
+    background-color: #ffffff; /* พื้นหลังสีฟ้าอ่อนเมื่อโฮเวอร์ */
+  }
+  .ButtonBack:active {
+    background-color: #ffdfd0; /* เปลี่ยนเป็นสีเขียวเข้มเมื่อโฮเวอร์ */
+  }
+  
+  /* การตั้งค่าปุ่มรอง (Secondary) */
+  .btn-secondary {
+    background-color: #ffffff; /* พื้นหลังสีขาว */
+    border: 1px solid #000000; /* กรอบสีดำ */
+    color: #000; /* สีตัวอักษรเป็นสีดำ */
+  }
+  
+  /* การตั้งค่าปุ่มหลัก (Primary) */
+  .btn-primary {
+    background-color: #ffffff; /* พื้นหลังสีขาว */
+    border: 1px solid #007bff; /* กรอบสีฟ้า */
+    color: #007bff; /* สีตัวอักษรเป็นสีน้ำเงิน */
+  }
+  
+  /* การตั้งค่าปุ่มแก้ไข/ยกเลิก */
+  .button-edit {
+    background-color: #ffffff;
+    border: 1px solid #007bff;
+    color: #007bff; /* สีตัวอักษรเป็นสีน้ำเงิน */
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  /* การตั้งค่าปุ่มบันทึก */
+  .button-save {
+    background-color: #ffffff; /* พื้นหลังสีเขียวสำหรับปุ่มบันทึก */
+    color: #ffffff; /* สีตัวอักษรเป็นสีขาว */
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  
+  /* เพิ่มเอฟเฟกต์เมื่อโฮเวอร์สำหรับปุ่มบันทึก */
+  .button-save:hover {
+    background-color: #ffffff; /* เปลี่ยนเป็นสีเขียวเข้มเมื่อโฮเวอร์ */
+  }
+  .button-save:active {
+    background-color: #ffdfd0; /* เปลี่ยนเป็นสีเขียวเข้มเมื่อโฮเวอร์ */
+  }
+  
+  /* เพิ่มเอฟเฟกต์เมื่อโฮเวอร์สำหรับปุ่มแก้ไข */
+  .button-edit:hover {
+    background-color: #ffffff; /* พื้นหลังสีฟ้าอ่อนเมื่อโฮเวอร์ */
+  }
+  .button-edit:active {
+    background-color: #ffdfd0; /* เปลี่ยนเป็นสีเขียวเข้มเมื่อโฮเวอร์ */
+  }
+  
+  
+  /* เพิ่มสไตล์สำหรับไอคอนภายในปุ่ม */
+  .icon {
+    margin-right: 5px; /* ระยะห่างระหว่างไอคอนกับข้อความ */
+  }
+  

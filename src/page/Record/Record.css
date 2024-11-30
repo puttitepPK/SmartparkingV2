@@ -1,0 +1,275 @@
+.box2 {
+  height: 130px;
+  margin-top: -20px;
+  margin-bottom: 35px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  border: 5px solid #ffffff;
+
+  border-bottom-left-radius: 70px;
+  border-bottom-color: #f2f2e6;
+  border-left-color: #f2f2e6;
+}
+.Logo2-image {
+  width: 160px;
+  height: 80px;
+  object-fit: contain; /* รูปภาพจะถูกปรับขนาดโดยไม่ถูกตัด */
+  margin-top: 25px;
+  float: left;
+  margin-left: 6px;
+}
+.content-with-navbar {
+  padding-bottom: 80px; /* เผื่อพื้นที่สำหรับแถบเมนูด้านล่าง */
+}
+
+.iconClock {
+  margin-right: -20px;
+}
+.dropdownrecord{
+    margin-bottom: 40px;
+}
+.boxrecord {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #ffffff;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 8px rgba(131, 80, 80, 0.1);
+  /* font-family: Arial, sans-serif; */
+  color: #1f1f1f !important;
+}
+
+.record-section1 {
+  margin-bottom: -15px;
+  margin-left: 15px;
+}
+.custom-date-picker1 {
+  width: 145px !important; /* ปรับขนาดให้เต็มความกว้าง */
+  height: 35px; /* ปรับความสูง */
+  font-size: 16px; /* ขนาดตัวอักษร */
+  color: #2e2e2e !important; /* สีข้อความ */
+  background-color: #d4d0d0 !important; /* สีพื้นหลัง */
+  border: 2px solid #cccccc; /* กำหนดขอบ */
+  border-radius: 8px; /* มุมโค้งมน */
+  outline: none; /* ลบเส้นขอบเวลา focus */
+  transition: border-color 0.3s ease; /* เพิ่มการเคลื่อนไหวเมื่อเปลี่ยนสี */
+  margin-right: 20px;
+  margin-left: -1px;
+}
+
+.custom-date-picker1:focus {
+  border-color: #007bff; /* เปลี่ยนสีขอบเมื่อถูกเลือก */
+  background-color: #ffffff; /* สีพื้นหลังเมื่อ focus */
+}
+
+.custom-date-picker1::placeholder {
+  color: #aaaaaa; /* สีข้อความ placeholder */
+}
+
+/*แต่งกล่อง*/
+/* กล่องหลัก */
+.record-item {
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.5s ease; /* นุ่มนวล */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 15px;
+    border: 1px solid #000000; 
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* สถานะ expanded (กล่องขยาย) */
+  .record-item.expanded {
+    flex-direction: column; /*ให้อยู่กลาง*/
+    align-items: stretch;
+  }
+  .record-detail-item {
+    display: flex;
+    justify-content: space-between; /* ให้ข้อความข้างซ้ายสุดและขวาสุดห่างกันเต็มที่ */
+    margin-bottom: 10px; /* ระยะห่างระหว่างรายการ */
+    margin-left: 10px;
+    margin-right: 10px;
+
+  } 
+  .record-date2{
+    font-size: 21px;
+    font-weight: bold;
+  }
+  .record-detail-item span {
+    font-size: 16px; /* ขนาดตัวอักษร */
+    margin-bottom: 0px;
+  }
+  
+  /* รูปภาพ */
+  .record-image-container {
+    flex-shrink: 0; /* ไม่ให้รูปภาพย่อ */
+    width: 155px;
+    height: 140px;
+    border-radius: 10px;
+    margin-left: 6px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: #D9D9D9;
+    transition: all 0.5s ease;
+  }
+  
+  .record-car-image {
+    width: 140px; /* ขนาดก่อนขยาย */
+    height: 80px;
+    border-radius: 8px;
+    object-fit: contain; /* รูปภาพจะถูกปรับขนาดโดยไม่ถูกตัด */
+    margin-top: 29px;
+    transition: all 0.5s ease; /* นุ่มนวลตอนขยาย */
+  }
+  
+  /* สถานะ expanded (ขยายรูปภาพ) */
+  .record-item.expanded .record-image-container {
+    width: 100%; /* ขยายภาชนะรูปภาพเต็ม */
+    text-align: center; /* จัดรูปอยู่ตรงกลาง */
+    height: 375px; /* ปรับความสูงอัตโนมัติ */
+    margin-top: 6px;
+    margin-bottom: 0px; /* เว้นช่องว่างระหว่างรูปกับข้อความ */
+    background-color: rgb(255, 255, 255) !important;
+  }
+  
+  .record-item.expanded .record-car-image {
+    margin-top: 10px;
+    width: 90%; /* ขยายรูปภาพเต็มความกว้าง */
+    height: 180px; /* ปรับความสูงอัตโนมัติ */
+    padding: 20px;
+    margin-right: 12px;
+    border-radius: 10px; /* ทำขอบมน */
+    background-color: #D9D9D9 !important;
+  }
+  
+/* ข้อมูลย่อ */
+.record-summary {
+    margin-left: 5px;
+    opacity: 1; /* ตั้งค่าตั้งต้นให้เห็น */
+    transition: opacity 0.5s ease, height 0.5s ease; /* การเปลี่ยนแปลง opacity และ height นุ่มนวล */
+  }
+  
+  .record-summary.hidden {
+    opacity: 0; /* ซ่อนเมื่อกด */
+    height: 0; /* ซ่อนโดยการปรับความสูง */
+    overflow: hidden; /* ไม่ให้เนื้อหาผ่าน */
+    height: 1px;
+    margin-bottom: -180px;
+  }
+  
+  /* รายละเอียดเพิ่มเติม */
+  .record-expanded {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 1px;
+    margin-bottom: 8px;
+    animation: fadeIn 0.5s ease; /* เอฟเฟกต์ Fade ในการแสดง */
+  }
+  
+  .record-details {
+    font-size: 3rem; /*ไม่ใช้*/
+    margin-left: 10px;
+    max-width: 300px;
+  }
+  
+  .record-date {
+    font-weight: bold;
+    color: #332D24;
+    font-size: 16.5px;
+    margin-top: 17px;
+    text-align: left;
+    margin-bottom: 1px !important;
+
+  }
+  
+  .record-building,
+  .record-time {
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 3px;
+  }
+  .record-floor{
+    text-align: left;
+    font-size: 15px;
+    color: #000000;
+    margin-bottom: 3px;
+  }
+  
+  .content-shorten {
+    background-color: #D9D9D9;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-right: 8px;
+    float: right;
+    width: 90px;
+  }  
+  
+  .content-shorten span {
+    margin-right: 20px;
+  }
+  
+  .content-shorten:hover { 
+    background-color: #c7c7c7;
+    transition: background-color 0.3s ease; 
+  }
+  .content-shorten:active {
+    background-color: #afafaf;
+    transition: background-color 0.3s ease; 
+  }
+  .content-detalis1{
+    background-color: #FD6E2B;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px !important;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: 9px;
+    margin-left: 9px;
+    margin-right: 10px;
+    height: 28px;
+    width: 145px;
+    left: 10px;
+  }
+  .content-detalis1:hover {
+    background-color: #eb5f1f;
+    transition: background-color 0.3s ease; 
+  }
+  .content-detalis1:active {
+    background-color: #c45421;
+    transition: background-color 0.3s ease; 
+  }
+  .content-detalis1 span{
+    margin-right: 17px;
+    position: relative;
+    bottom: 2px;
+  }
+  
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  

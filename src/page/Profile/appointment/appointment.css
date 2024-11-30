@@ -1,0 +1,124 @@
+.headfrom1 {
+  background-color: #FD6E2B; /* สีส้ม */
+  color: #FFFFFF; /* สีข้อความ */
+  text-align: center; /* จัดข้อความให้อยู่กึ่งกลาง */
+  padding: 15px 0; /* ระยะห่างด้านบน-ล่าง */
+  font-size: 28px; /* ขนาดตัวอักษร */
+  font-weight: bold; /* ตัวอักษรหนา */
+  border-radius: 10px; /* มุมโค้ง */
+  margin: 0 auto 20px auto; /* จัดให้อยู่ตรงกลางและเพิ่มระยะด้านล่าง */
+  width: 90%; /* ความกว้างเท่ากับ .appointment-form */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* เพิ่มเงา */
+}
+
+
+.appointment-form {
+  background-color: #473366;
+  color: #FFFFFF;
+  border-top: 10px solid #ffffff; /* เส้นขอบเฉพาะด้านบน */
+  border-right: 10px solid #ffffff; /* ไม่มีเส้นขอบด้านขวา */
+  border-bottom: 0px solid #000000; /* เส้นขอบเฉพาะด้านล่าง */
+  border-left: 10px solid #ffffff; /* ไม่มีเส้นขอบด้านซ้าย */
+  border-radius: 10px; /* มุมโค้ง */
+  padding: 20px;
+  border-radius: 13px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.input-with-icon.no-icon {
+  background-image: none; /* ซ่อนรูป */
+  padding-left: 10px; /* ปรับระยะข้อความ */
+}
+
+
+
+.form-group .form-control {
+  
+  display: flex; /* ใช้ Flexbox */
+  align-items: center; /* จัดข้อความให้อยู่ตรงกลางแนวตั้ง */
+  justify-content: flex-end; /* จัดข้อความให้ชิดขวา */
+  padding-left: 10px; /* ระยะห่างจากขอบซ้าย */
+  padding-right: 20px; /* ระยะห่างจากขอบขวา */
+  font-size: 16px; /* ขนาดตัวอักษร */
+  font-weight: normal; /* ความหนาของตัวอักษร */
+  border: 1px solid #CCCCCC; /* เส้นขอบ */
+  border-radius: 5px; /* มุมโค้ง */
+  line-height: 1.5; /* ระยะห่างระหว่างบรรทัด */
+  text-align: left; /* จัดข้อความให้ชิดขวา */
+}
+
+.input-logo {
+  width: 20px; /* ปรับขนาดโลโก้ */
+  height: 20px;
+  margin-right: 8px; /* ระยะห่างระหว่างโลโก้กับข้อความ */
+  vertical-align: middle; /* จัดให้อยู่ตรงกลางแนวเดียวกับข้อความ */
+}
+
+.form-label {
+  display: flex;
+  align-items: center; /* จัดให้อยู่ตรงกลางแนวตั้ง */
+}
+.success-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff; /* สีเขียว */
+  color: #000000; /* สีข้อความเป็นสีขาว */
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  z-index: 1000;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* เงาอ่อนลง */
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.form-buttons2 {
+  display: flex; /* ใช้ Flexbox */
+  justify-content: center; /* จัดให้อยู่ตรงกลาง */
+  align-items: center; /* จัดตำแหน่งแนวตั้ง */
+  gap: 20px; /* ระยะห่างระหว่างปุ่ม */
+  margin-top: 20px; /* ระยะห่างด้านบน */
+}
+
+.form-buttons2 .btn2,
+.form-buttons2 .btn3 {
+  background-color: #ffffff !important; 
+  color: #000000; 
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+ 
+  font-size: 16px;
+  
+
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  gap:5px;
+  transition: all 0.3s ease;
+  width: 180px; /* กำหนดความกว้างให้ปุ่มเท่ากัน */
+  height: 50px; /* กำหนดความสูงให้ปุ่มเท่ากัน */
+  text-align: center; /* จัดข้อความให้อยู่กลาง */
+}
+
+.form-buttons2 .btn2:hover,
+.form-buttons2 .btn3:hover {
+  background-color: #ff8953; /* สีเทาอ่อนเมื่อ hover */
+  color: #000000;
+  border-color: #FD6E2B;
+}
+.form-buttons2 .btn2:active,
+.form-buttons2 .btn3:active {
+  background-color: #ffdfd0 !important; /* สีเทาอ่อนเมื่อ hover */
+  color: #000000;
+  border-color: #FD6E2B;
+}
+.icon{
+  margin-right: 2px;
+  margin-left: -10px;
+}
