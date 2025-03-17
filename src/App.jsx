@@ -87,4 +87,4 @@ function App() {
 
 export default App;
 
-// เทสไอ้ บังเบียร์
+// Test2
